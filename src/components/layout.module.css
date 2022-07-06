@@ -1,20 +1,42 @@
+:root{
+    background-color: black;
+    color:white
+}
 .container {
-    margin: auto;
+    margin: left;
     max-width: 500px;
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
+  p{
+    color:white;
+    font-size: 12px;
+    columns: 2;
+  }
+
+  .navLogo{
+    width: 75px;
+    height: 35px;
+    padding-right: 20px;
+  }
 .heading {
-    color: rebeccapurple;
+    color: white;
   }
   .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    background-color: black;
+    font-size: 18px;
+    
   }
   .nav-link-item {
     padding-right: 2rem;
+    
+   
   }
   .nav-link-text {
-    color: black;
+    color: whitesmoke;
+    text-decoration: none;
   }
+ 
